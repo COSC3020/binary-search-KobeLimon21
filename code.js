@@ -6,13 +6,15 @@
 function binarySearch(arr, target) {
     let leftIndex = 0;
     let rightIndex  = arr.length - 1;
-    
-   // finds middle index by adding left and right index together and dividing by 2 
+    let answer = -1; // sets result to -1 automatically unless "target" is found 
+   
     while (leftIndex <= rightIndex){
     const middleIndex = Math.floor((leftIndex + rightIndex) /2); 
+
     
     if(target === arr[middleIndex]) {
-    return middleIndex;
+    answer = middleIndex;
+    rightIndex = middleIndex -1; // keeps searching to handle the duplicate number case
     }
      else if (target > arr[middleIndex]){
     leftIndex = middleIndex + 1;
@@ -21,7 +23,7 @@ function binarySearch(arr, target) {
     rightIndex = middleIndex - 1;
     }
     }
-    return -1; 
+    return answer; 
     }
     
     
