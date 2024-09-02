@@ -9,6 +9,7 @@ automatically every time you push to Github; if they pass you are done.
 
 
 https://www.youtube.com/watch?v=7lGiPItOVCM  - used to explain binary sort 
+
 chatgpt - explained Math.floor utility for middleIndex function 
 
 try 2 
