@@ -1,5 +1,5 @@
 // if array is empty return -1 
-// if array has elements, find middle element and if its middle return middle 
+// if array has elements (empty set), find middle element and if its middle return middle 
 // if not middle, binary search left half the array or right depending on if its greater or less than
 
 
