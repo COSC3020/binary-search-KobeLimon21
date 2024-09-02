@@ -28,5 +28,5 @@ function binarySearch(arr, target) {
 
 
 // console.log(binarySearch([5,5,5,5] , 5)) for  duplicate number case test 
-// 
+
     
