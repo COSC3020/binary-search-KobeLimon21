@@ -48,4 +48,4 @@ if target is above middle index, searches right half of the array
 if target is under middle index, searches left side of the array 
 
 
-returns "answer" if there was one found being the index of target or -1 if not found 
+returns "answer" if there was one found being the index of target or -1 if not found.
